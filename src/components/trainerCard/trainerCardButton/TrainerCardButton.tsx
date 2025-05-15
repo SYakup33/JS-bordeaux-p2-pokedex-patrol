@@ -1,16 +1,17 @@
-import { useState } from "react";
+import trainerCardImg from "/src/assets/images/trainerCard/trainer_card.svg";
 
-function TrainerCardButton({ onToggleTrainerCard }) {
-	const [activeImage, setActiveImage] = useState(false);
-	const handleClick = () => {
-		setActiveImage(true);
-	};
+interface ToggleType {
+	onToggleTrainerCard: () => void;
+}
+
+function TrainerCardButton({ onToggleTrainerCard }: ToggleType) {
 	return (
 		<img
-			src="src/assets/images/trainerCard/trainer_card.svg"
+			src={trainerCardImg}
 			alt="trainer card"
 			onClick={onToggleTrainerCard}
-			onKeyDown={(e) => e.key === "Enter" && handleClick()}
+			onKeyDown={(e) => e.key === "Enter" && onToggleTrainerCard()}
+			style={{ cursor: "pointer" }}
 		/>
 	);
 }

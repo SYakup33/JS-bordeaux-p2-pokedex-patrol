@@ -1,7 +1,8 @@
 import "./WildTrainer.css";
+import chatBoxImg from "../assets/images/chat_box.svg";
 
 interface Props {
-	trainers: {
+	trainer: {
 		id: number;
 		declaredName: string;
 		cardName: string;
@@ -13,19 +14,15 @@ interface Props {
 	};
 }
 
-function WildTrainer({ trainers }: Props) {
+function WildTrainer({ trainer }: Props) {
 	return (
 		<div className="wildTrainer">
-			<img className="Trainer" src={trainers.portraitImage} alt="Trainer" />
+			<img className="Trainer" src={trainer.portraitImage} alt="Trainer" />
 			<div className="chatBox">
-				<img
-					className="trainerImg"
-					src="src/assets/images/chat_box.svg"
-					alt="chatBox"
-				/>
+				<img className="trainerImg" src={chatBoxImg} alt="chatBox" />
 				<p className="textOnImage">
-					{trainers.declaredName}: <br />
-					Salut je viens de {trainers.declaredRegion} !
+					{trainer.declaredName}: <br />
+					Salut je viens de {trainer.declaredRegion} !
 				</p>
 			</div>
 		</div>

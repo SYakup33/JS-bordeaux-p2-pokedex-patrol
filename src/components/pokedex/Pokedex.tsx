@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { usePokemonContext } from "../../context/PokemonContext";
 import PokedexModal from "./PokedexModal.tsx";
+import pokedexHud from "/src/assets/images/hud/pokedexhud.svg";
 
 const Pokedex = () => {
 	const { pokemonData } = usePokemonContext();
@@ -14,7 +15,7 @@ const Pokedex = () => {
 	return (
 		<div>
 			<img
-				src="/src/assets/images/hud/pokedexhud.svg"
+				src={pokedexHud}
 				alt="Pokedex fermé"
 				onClick={() => setIsPokedexOpen(true)}
 				onKeyDown={(e) => e.key === "p"}

@@ -1,6 +1,13 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import "./Home.css";
+import speakerImg from "../../assets/images/home/speaker.svg";
+import pokedexImg from "../../assets/images/home/pokedex.svg";
+import patrolImg from "../../assets/images/home/patrol.svg";
+import trainer1Img from "../../assets/images/home/trainer1.svg";
+import trainer2Img from "../../assets/images/home/trainer2.svg";
+import pikaGif from "../../assets/images/home/pika.gif";
+import audioMp3 from "../../assets/music/home.mp3";
 
 function Home() {
 	const [isTransitioning, setIsTransitioning] = useState(false);
@@ -8,7 +15,7 @@ function Home() {
 
 	useEffect(() => {
 		if (!window.homeMusic) {
-			const audio = new Audio("/src/assets/music/home.mp3");
+			const audio = new Audio(audioMp3);
 			audio.loop = true;
 			window.homeMusic = audio;
 		}
@@ -49,7 +56,7 @@ function Home() {
 		<>
 			<header>
 				<img
-					src="src/assets/images/home/speaker.svg"
+					src={speakerImg}
 					alt="speaker"
 					className="speaker_img"
 					onKeyDown={(e) => e.key === "b"}
@@ -66,33 +73,13 @@ function Home() {
 				/>
 			</header>
 			<div className="home">
-				<img
-					className="img_pokedex"
-					src="src/assets/images/home/pokedex.svg"
-					alt="pokedex"
-				/>
-				<img
-					className="img_patrol"
-					src="src/assets/images/home/patrol.svg"
-					alt="patrol"
-				/>
-				<img
-					className="img_trainer1"
-					src="src/assets/images/home/trainer1.svg"
-					alt="trainer"
-				/>
-				<img
-					className="img_trainer2"
-					src="src/assets/images/home/trainer2.svg"
-					alt="trainer"
-				/>
+				<img className="img_pokedex" src={pokedexImg} alt="pokedex" />
+				<img className="img_patrol" src={patrolImg} alt="patrol" />
+				<img className="img_trainer1" src={trainer1Img} alt="trainer" />
+				<img className="img_trainer2" src={trainer2Img} alt="trainer" />
 				{isTransitioning && (
 					<div className="transition_overlay">
-						<img
-							src="src/assets/images/home/pika.gif"
-							alt="Transition"
-							className="transition_img"
-						/>
+						<img src={pikaGif} alt="Transition" className="transition_img" />
 					</div>
 				)}
 				<Link to="#" onClick={startTransition} className="btn_home play">

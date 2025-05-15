@@ -3,6 +3,8 @@ import hoennCard from "../../assets/images/verif/trainer_card_hoenn.svg";
 import kantoCard from "../../assets/images/verif/trainer_card_kanto.svg";
 import sinnohCard from "../../assets/images/verif/trainer_card_sinnoh.svg";
 import unysCard from "../../assets/images/verif/trainer_card_unys.svg";
+import windowSill from "../../assets/images/hud/game_window.svg";
+import jadeMusic from "../../assets/music/jade.mp3";
 import Notebook from "../../components/Notebook/Button/NotebookButton";
 import CarouselOverlay from "../../components/Notebook/Licences/Licences";
 import Modal from "../../components/Notebook/Modal/NotebookModal";
@@ -17,7 +19,7 @@ import WildTrainer from "../../components/WildTrainer";
 import Pokedex from "../../components/pokedex/Pokedex";
 import TrainerCardButton from "../../components/trainerCard/trainerCardButton/TrainerCardButton";
 import { usePokemonContext } from "../../context/PokemonContext";
-import trainersData from "../../db/trainers.json";
+import { trainersData } from "../../db/trainers.ts";
 
 interface NameEntry {
 	name: string;
@@ -121,7 +123,7 @@ function Game() {
 		}
 
 		if (!window.jadeMusic) {
-			const music = new Audio("src/assets/music/jade.mp3");
+			const music = new Audio(jadeMusic);
 			music.loop = true;
 			window.jadeMusic = music;
 		}
@@ -207,7 +209,7 @@ function Game() {
 		setTrainers(randomTrainers);
 
 		const timeout = setTimeout(() => {
-			setSelectedTrainer(<WildTrainer trainers={randomTrainers[0]} />);
+			setSelectedTrainer(<WildTrainer trainer={randomTrainers[0]} />);
 		}, 1500);
 
 		return () => clearTimeout(timeout);
@@ -215,7 +217,7 @@ function Game() {
 
 	const pickWildTrainer = () => {
 		if (currentIndex < 10) {
-			setSelectedTrainer(<WildTrainer trainers={trainers[currentIndex]} />);
+			setSelectedTrainer(<WildTrainer trainer={trainers[currentIndex]} />);
 			setCurrentIndex((prev) => prev + 1);
 		} else {
 			setSelectedTrainer(<p>Fin des dresseurs !</p>);
@@ -233,11 +235,7 @@ function Game() {
 					<PokemonSprite selectedPokemons={selectedPokemons} />
 
 					<div id="trainer">{selectedTrainer}</div>
-					<img
-						id="window_sill"
-						src="src/assets/images/hud/game_window.svg"
-						alt="fenêtre de jeu"
-					/>
+					<img id="window_sill" src={windowSill} alt="fenêtre de jeu" />
 					<p id="counter">{currentIndex} / 10</p>
 				</div>
 

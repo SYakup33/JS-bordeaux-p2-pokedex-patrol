@@ -1,0 +1,223 @@
+import trainer1imgfull from "../assets/images/portraitImage/trainer1imgfull.svg";
+import trainer2imgfull from "../assets/images/portraitImage/trainer2imgfull.svg";
+import trainer3imgfull from "../assets/images/portraitImage/trainer3imgfull.svg";
+import trainer4imgfull from "../assets/images/portraitImage/trainer4imgfull.svg";
+import trainer5imgfull from "../assets/images/portraitImage/trainer5imgfull.svg";
+import trainer6imgfull from "../assets/images/portraitImage/trainer6imgfull.svg";
+import trainer7imgfull from "../assets/images/portraitImage/trainer7imgfull.svg";
+import trainer8imgfull from "../assets/images/portraitImage/trainer8imgfull.svg";
+import trainer9imgfull from "../assets/images/portraitImage/trainer9imgfull.svg";
+import trainer10imgfull from "../assets/images/portraitImage/trainer10imgfull.svg";
+import trainer11imgfull from "../assets/images/portraitImage/trainer11imgfull.svg";
+import trainer12imgfull from "../assets/images/portraitImage/trainer12imgfull.svg";
+import trainer13imgfull from "../assets/images/portraitImage/trainer13imgfull.svg";
+import trainer14imgfull from "../assets/images/portraitImage/trainer14imgfull.svg";
+import trainer15imgfull from "../assets/images/portraitImage/trainer15imgfull.svg";
+import trainer16imgfull from "../assets/images/portraitImage/trainer16imgfull.svg";
+import trainer17imgfull from "../assets/images/portraitImage/trainer17imgfull.svg";
+import trainer18imgfull from "../assets/images/portraitImage/trainer18imgfull.svg";
+import trainer19imgfull from "../assets/images/portraitImage/trainer19imgfull.svg";
+import trainer20imgfull from "../assets/images/portraitImage/trainer20imgfull.svg";
+
+export const trainersData = [
+	{
+		id: 1,
+		declaredName: "Léo Flammacier",
+		cardName: "Léo Flammacier",
+		declaredRegion: "Hoenn",
+		cardRegion: "Hoenn",
+		portraitImage: trainer20imgfull,
+		cardPortrait: trainer20imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 2,
+		declaredName: "Mira Sylvestre",
+		cardName: "Mira Sylvestre",
+		declaredRegion: "Sinnoh",
+		cardRegion: "Sinnoh",
+		portraitImage: trainer2imgfull,
+		cardPortrait: trainer2imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 3,
+		declaredName: "Kael Obsidian",
+		cardName: "Kael Obsidian",
+		declaredRegion: "Unys",
+		cardRegion: "Unys",
+		portraitImage: trainer3imgfull,
+		cardPortrait: trainer3imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 4,
+		declaredName: "Guillaume Ventclair",
+		cardName: "Guillaume Ventclair",
+		declaredRegion: "Kanto",
+		cardRegion: "Kanto",
+		portraitImage: trainer4imgfull,
+		cardPortrait: trainer4imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 5,
+		declaredName: "Sasha Ketchum",
+		cardName: "Sasha Ketchum",
+		declaredRegion: "Hoenn",
+		cardRegion: "Hoenn",
+		portraitImage: trainer5imgfull,
+		cardPortrait: trainer5imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 6,
+		declaredName: "Tanya Saphira",
+		cardName: "Tanya Saphira",
+		declaredRegion: "Sinnoh",
+		cardRegion: "Sinnoh",
+		portraitImage: trainer6imgfull,
+		cardPortrait: trainer6imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 7,
+		declaredName: "Nolan Glacier",
+		cardName: "Nolan Glacier",
+		declaredRegion: "Unys",
+		cardRegion: "Unys",
+		portraitImage: trainer7imgfull,
+		cardPortrait: trainer7imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 8,
+		declaredName: "Ellie Floralis",
+		cardName: "Ellie Floralis",
+		declaredRegion: "Kanto",
+		cardRegion: "Kanto",
+		portraitImage: trainer8imgfull,
+		cardPortrait: trainer8imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 9,
+		declaredName: "Darius Ombrelame",
+		cardName: "Darius Ombrelame",
+		declaredRegion: "Hoenn",
+		cardRegion: "Hoenn",
+		portraitImage: trainer9imgfull,
+		cardPortrait: trainer9imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 10,
+		declaredName: "Yuna Solara",
+		cardName: "Yuna Solara",
+		declaredRegion: "Sinnoh",
+		cardRegion: "Sinnoh",
+		portraitImage: trainer10imgfull,
+		cardPortrait: trainer10imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 11,
+		declaredName: "Jax Ferrugem",
+		cardName: "Jax Ferrugem",
+		declaredRegion: "Unys",
+		cardRegion: "Unys",
+		portraitImage: trainer11imgfull,
+		cardPortrait: trainer11imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 12,
+		declaredName: "Oria Cristalis",
+		cardName: "Oria Cristalis",
+		declaredRegion: "Kanto",
+		cardRegion: "Kanto",
+		portraitImage: trainer12imgfull,
+		cardPortrait: trainer12imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 13,
+		declaredName: "Infirmière Fulguris",
+		cardName: "Infirmière Fulguris",
+		declaredRegion: "Hoenn",
+		cardRegion: "Hoenn",
+		portraitImage: trainer13imgfull,
+		cardPortrait: trainer13imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 14,
+		declaredName: "Nova Cendre",
+		cardName: "Nova Cendre",
+		declaredRegion: "Sinnoh",
+		cardRegion: "Sinnoh",
+		portraitImage: trainer14imgfull,
+		cardPortrait: trainer14imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 15,
+		declaredName: "Kira Éclipsia",
+		cardName: "Kira Éclipsia",
+		declaredRegion: "Unys",
+		cardRegion: "Unys",
+		portraitImage: trainer15imgfull,
+		cardPortrait: trainer15imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 16,
+		declaredName: "Zayn Tempesta",
+		cardName: "Zayn Tempesta",
+		declaredRegion: "Kanto",
+		cardRegion: "Kanto",
+		portraitImage: trainer16imgfull,
+		cardPortrait: trainer16imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 17,
+		declaredName: "Maël Brumeco",
+		cardName: "Maël Brumeco",
+		declaredRegion: "Hoenn",
+		cardRegion: "Hoenn",
+		portraitImage: trainer17imgfull,
+		cardPortrait: trainer17imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 18,
+		declaredName: "Nira Aquaphée",
+		cardName: "Nira Aquaphée",
+		declaredRegion: "Sinnoh",
+		cardRegion: "Sinnoh",
+		portraitImage: trainer18imgfull,
+		cardPortrait: trainer18imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 19,
+		declaredName: "Soren Pyrolux",
+		cardName: "Soren Pyrolux",
+		declaredRegion: "Unys",
+		cardRegion: "Unys",
+		portraitImage: trainer19imgfull,
+		cardPortrait: trainer19imgfull,
+		isTrainerCorrupted: false,
+	},
+	{
+		id: 20,
+		declaredName: "Aelys Runétoile",
+		cardName: "Aelys Runétoile",
+		declaredRegion: "Kanto",
+		cardRegion: "Kanto",
+		portraitImage: trainer1imgfull,
+		cardPortrait: trainer1imgfull,
+		isTrainerCorrupted: false,
+	},
+];

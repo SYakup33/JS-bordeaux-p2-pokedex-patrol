@@ -1,6 +1,7 @@
 import { useState } from "react";
 import type { PokemonData } from "../../context/PokemonContext";
 import PokeballModal from "./PokeballModal";
+import pokeballHud from "/src/assets/images/hud/pokeball_hud.svg";
 
 interface PokeballTrainer {
 	selectedPokemons: PokemonData[];
@@ -12,7 +13,7 @@ const PokeballTrainer = ({ selectedPokemons }: PokeballTrainer) => {
 	return (
 		<div>
 			<img
-				src="/src/assets/images/hud/pokeball_hud.svg"
+				src={pokeballHud}
 				alt="Pokéball fermé"
 				onClick={() => setIsPokeballOpen(true)}
 				onKeyDown={(e) => e.key === "b"}
