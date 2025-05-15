@@ -1,7 +1,5 @@
 import "./WildTrainer.css";
 import chatBoxImg from "../assets/images/chat_box.svg";
-import trainer20imgfull from "../../assets/images/portraitImage/trainer20imgfull.svg";
-import trainer2imgfull from "../../assets/images/portraitImage/trainer2imgfull.svg";
 
 interface Props {
 	trainer: {
@@ -17,10 +15,6 @@ interface Props {
 }
 
 function WildTrainer({ trainer }: Props) {
-	const trainerImages = {
-		"trainer20imgfull.svg": trainer20imgfull,
-		"trainer2imgfull.svg": trainer2imgfull,
-	};
 	return (
 		<div className="wildTrainer">
 			<img className="Trainer" src={trainer.portraitImage} alt="Trainer" />
