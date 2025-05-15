@@ -1,4 +1,5 @@
 import "./Jenny.css";
+import jennyFull from "/src/assets/images/hud/Jennyfull.svg";
 
 const JennyModal = ({ onClose }: { onClose: () => void }) => {
 	return (
@@ -12,10 +13,7 @@ const JennyModal = ({ onClose }: { onClose: () => void }) => {
 			<div className="jenny-content">
 				<div className="jenny-card">
 					<div className="jenny-image">
-						<img
-							src="/src/assets/images/hud/Jennyfull.svg"
-							alt="Officer Jenny"
-						/>
+						<img src={jennyFull} alt="Officer Jenny" />
 					</div>
 				</div>
 			</div>
