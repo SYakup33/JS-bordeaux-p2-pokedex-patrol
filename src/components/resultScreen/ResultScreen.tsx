@@ -41,7 +41,7 @@ function ResultScreen({
 					</p>
 
 					<p>
-						Nombres de dresseurs fraudleux autorisés : ..............{" "}
+						Nombres de dresseurs frauduleux autorisés : ..............{" "}
 						{nbrCorruptedTrainer} /
 						{10 - (nbrLegitimateTrainer + nbrLegitimateTrainerDenied)}
 					</p>
