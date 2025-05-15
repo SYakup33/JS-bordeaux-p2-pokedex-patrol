@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router";
-import { Link } from "react-router";
+import { useNavigate, Link } from "react-router";
+
 import officer from "../../assets/images/hud/tutorial.svg";
+import speaker from "../../assets/images/home/speaker.svg";
+import pika from "../../assets/images/home/pika.gif";
+import audioMp3 from "../../assets/music/home.mp3";
 
 const Tutorial = () => {
 	const [isTransitioning, setIsTransitioning] = useState(false);
@@ -9,7 +12,7 @@ const Tutorial = () => {
 
 	useEffect(() => {
 		if (!window.homeMusic) {
-			const audio = new Audio("/src/assets/music/home.mp3");
+			const audio = new Audio(audioMp3);
 			audio.loop = true;
 			window.homeMusic = audio;
 		}
@@ -52,7 +55,7 @@ const Tutorial = () => {
 		<>
 			<header>
 				<img
-					src="src/assets/images/home/speaker.svg"
+					src={speaker}
 					alt="speaker"
 					className="speaker_img"
 					onKeyDown={(e) => e.key === "b"}
@@ -104,11 +107,7 @@ const Tutorial = () => {
 
 				{isTransitioning && (
 					<div className="transition_overlay">
-						<img
-							src="src/assets/images/home/pika.gif"
-							alt="Transition"
-							className="transition_img"
-						/>
+						<img src={pika} alt="Transition" className="transition_img" />
 					</div>
 				)}
 
