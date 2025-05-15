@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import "./ResultScreen.css";
+import pikaRedGif from "src/assets/images/hud/pikawalk.gif";
+import pokemonWinSound from "src/assets/music/pokemonwin.mp3";
 
 interface ResultScreenProps {
 	score: number;
@@ -15,7 +17,7 @@ function ResultScreen({
 	nbrLegitimateTrainerDenied,
 }: ResultScreenProps) {
 	useEffect(() => {
-		const winSound = new Audio("src/assets/music/pokemonwin.mp3");
+		const winSound = new Audio(pokemonWinSound);
 		winSound.play();
 	}, []);
 
@@ -24,7 +26,7 @@ function ResultScreen({
 			<section id="resultScreen">
 				<img
 					className="pika_red"
-					src="src/assets/images/hud/pikawalk.gif"
+					src={pikaRedGif}
 					alt="ceci est un pikachu et red"
 				/>
 				<div>
