@@ -1,4 +1,4 @@
-import trainerCardImg from "../../assets/images/trainerCard/trainer_card.svg";
+import trainerCardImg from "/src/assets/images/trainerCard/trainer_card.svg";
 
 interface ToggleType {
 	onToggleTrainerCard: () => void;
