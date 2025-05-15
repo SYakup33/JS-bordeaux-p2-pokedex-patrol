@@ -209,7 +209,7 @@ function Game() {
 		setTrainers(randomTrainers);
 
 		const timeout = setTimeout(() => {
-			setSelectedTrainer(<WildTrainer trainers={randomTrainers[0]} />);
+			setSelectedTrainer(<WildTrainer trainer={randomTrainers[0]} />);
 		}, 1500);
 
 		return () => clearTimeout(timeout);
@@ -217,7 +217,7 @@ function Game() {
 
 	const pickWildTrainer = () => {
 		if (currentIndex < 10) {
-			setSelectedTrainer(<WildTrainer trainers={trainers[currentIndex]} />);
+			setSelectedTrainer(<WildTrainer trainer={trainers[currentIndex]} />);
 			setCurrentIndex((prev) => prev + 1);
 		} else {
 			setSelectedTrainer(<p>Fin des dresseurs !</p>);

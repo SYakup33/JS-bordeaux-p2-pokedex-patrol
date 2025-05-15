@@ -8,7 +8,7 @@ interface Props {
 		cardName: string;
 		declaredRegion: string;
 		cardRegion: string;
-		portraitImage: string; // ici on passera une URL importée
+		portraitImage: string;
 		cardPortrait: string;
 		isTrainerCorrupted: boolean;
 	};
