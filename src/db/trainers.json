@@ -5,8 +5,8 @@
     "cardName": "Léo Flammacier",
     "declaredRegion": "Hoenn",
     "cardRegion": "Hoenn",
-    "portraitImage": "src/assets/images/portraitImage/trainer20imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer20imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer20imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer20imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -15,8 +15,8 @@
     "cardName": "Mira Sylvestre",
     "declaredRegion": "Sinnoh",
     "cardRegion": "Sinnoh",
-    "portraitImage": "src/assets/images/portraitImage/trainer2imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer2imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer2imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer2imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -25,8 +25,8 @@
     "cardName": "Kael Obsidian",
     "declaredRegion": "Unys",
     "cardRegion": "Unys",
-    "portraitImage": "src/assets/images/portraitImage/trainer3imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer3imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer3imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer3imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -35,8 +35,8 @@
     "cardName": "Guillaume Ventclair",
     "declaredRegion": "Kanto",
     "cardRegion": "Kanto",
-    "portraitImage": "src/assets/images/portraitImage/trainer4imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer4imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer4imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer4imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -45,8 +45,8 @@
     "cardName": "Sasha Ketchum",
     "declaredRegion": "Hoenn",
     "cardRegion": "Hoenn",
-    "portraitImage": "src/assets/images/portraitImage/trainer5imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer5imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer5imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer5imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -55,8 +55,8 @@
     "cardName": "Tanya Saphira",
     "declaredRegion": "Sinnoh",
     "cardRegion": "Sinnoh",
-    "portraitImage": "src/assets/images/portraitImage/trainer6imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer6imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer6imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer6imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -65,8 +65,8 @@
     "cardName": "Nolan Glacier",
     "declaredRegion": "Unys",
     "cardRegion": "Unys",
-    "portraitImage": "src/assets/images/portraitImage/trainer7imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer7imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer7imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer7imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -75,8 +75,8 @@
     "cardName": "Ellie Floralis",
     "declaredRegion": "Kanto",
     "cardRegion": "Kanto",
-    "portraitImage": "src/assets/images/portraitImage/trainer8imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer8imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer8imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer8imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -85,8 +85,8 @@
     "cardName": "Darius Ombrelame",
     "declaredRegion": "Hoenn",
     "cardRegion": "Hoenn",
-    "portraitImage": "src/assets/images/portraitImage/trainer9imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer9imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer9imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer9imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -95,8 +95,8 @@
     "cardName": "Yuna Solara",
     "declaredRegion": "Sinnoh",
     "cardRegion": "Sinnoh",
-    "portraitImage": "src/assets/images/portraitImage/trainer10imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer10imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer10imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer10imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -105,8 +105,8 @@
     "cardName": "Jax Ferrugem",
     "declaredRegion": "Unys",
     "cardRegion": "Unys",
-    "portraitImage": "src/assets/images/portraitImage/trainer11imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer11imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer11imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer11imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -115,8 +115,8 @@
     "cardName": "Oria Cristalis",
     "declaredRegion": "Kanto",
     "cardRegion": "Kanto",
-    "portraitImage": "src/assets/images/portraitImage/trainer12imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer12imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer12imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer12imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -125,8 +125,8 @@
     "cardName": "Infirmière Fulguris",
     "declaredRegion": "Hoenn",
     "cardRegion": "Hoenn",
-    "portraitImage": "src/assets/images/portraitImage/trainer13imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer13imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer13imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer13imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -135,8 +135,8 @@
     "cardName": "Nova Cendre",
     "declaredRegion": "Sinnoh",
     "cardRegion": "Sinnoh",
-    "portraitImage": "src/assets/images/portraitImage/trainer14imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer14imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer14imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer14imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -145,8 +145,8 @@
     "cardName": "Kira Éclipsia",
     "declaredRegion": "Unys",
     "cardRegion": "Unys",
-    "portraitImage": "src/assets/images/portraitImage/trainer15imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer15imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer15imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer15imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -155,8 +155,8 @@
     "cardName": "Zayn Tempesta",
     "declaredRegion": "Kanto",
     "cardRegion": "Kanto",
-    "portraitImage": "src/assets/images/portraitImage/trainer16imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer16imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer16imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer16imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -165,8 +165,8 @@
     "cardName": "Maël Brumeco",
     "declaredRegion": "Hoenn",
     "cardRegion": "Hoenn",
-    "portraitImage": "src/assets/images/portraitImage/trainer17imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer17imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer17imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer17imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -175,8 +175,8 @@
     "cardName": "Nira Aquaphée",
     "declaredRegion": "Sinnoh",
     "cardRegion": "Sinnoh",
-    "portraitImage": "src/assets/images/portraitImage/trainer18imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer18imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer18imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer18imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -185,8 +185,8 @@
     "cardName": "Soren Pyrolux",
     "declaredRegion": "Unys",
     "cardRegion": "Unys",
-    "portraitImage": "src/assets/images/portraitImage/trainer19imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer19imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer19imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer19imgfull.svg",
     "isTrainerCorrupted": false
   },
   {
@@ -195,8 +195,8 @@
     "cardName": "Aelys Runétoile",
     "declaredRegion": "Kanto",
     "cardRegion": "Kanto",
-    "portraitImage": "src/assets/images/portraitImage/trainer1imgfull.svg",
-    "cardPortrait":  "src/assets/images/portraitImage/trainer1imgfull.svg",
+    "portraitImage": "/assets/images/portraitImage/trainer1imgfull.svg",
+    "cardPortrait":  "/assets/images/portraitImage/trainer1imgfull.svg",
     "isTrainerCorrupted": false
   }
 ]
