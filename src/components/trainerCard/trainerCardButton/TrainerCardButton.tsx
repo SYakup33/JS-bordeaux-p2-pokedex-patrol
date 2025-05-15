@@ -1,3 +1,5 @@
+import trainerCardImg from "../../assets/images/trainerCard/trainer_card.svg";
+
 interface ToggleType {
 	onToggleTrainerCard: () => void;
 }
@@ -5,10 +7,11 @@ interface ToggleType {
 function TrainerCardButton({ onToggleTrainerCard }: ToggleType) {
 	return (
 		<img
-			src="src/assets/images/trainerCard/trainer_card.svg"
+			src={trainerCardImg}
 			alt="trainer card"
 			onClick={onToggleTrainerCard}
 			onKeyDown={(e) => e.key === "Enter" && onToggleTrainerCard()}
+			style={{ cursor: "pointer" }}
 		/>
 	);
 }

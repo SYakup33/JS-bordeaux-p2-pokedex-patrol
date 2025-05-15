@@ -35,7 +35,7 @@
 	max-width: 20%;
 }
 .region_Sinnoh {
-	background-image: url("src/assets/images/trainerCard/trainer_card_Sinnoh.svg");
+	background-image: url("../../../assets/images/trainerCard/trainer_card_sinnoh.svg");
 }
 
 .region_Sinnoh .trainer_name {
@@ -69,7 +69,7 @@
 }
 
 .region_Kanto {
-	background-image: url("src/assets/images/trainerCard/trainer_card_Kanto.svg");
+	background-image: url("../../../assets/images/trainerCard/trainer_card_kanto.svg");
 }
 
 .region_Kanto .trainer_name {
@@ -104,7 +104,7 @@
 }
 
 .region_Unys {
-	background-image: url("src/assets/images/trainerCard/trainer_card_Unys.svg");
+	background-image: url("../../../assets/images/trainerCard/trainer_card_unys.svg");
 }
 
 .region_Unys .trainer_name {
@@ -135,7 +135,7 @@
 }
 
 .region_Hoenn {
-	background-image: url("src/assets/images/trainerCard/trainer_card_Hoenn.svg");
+	background-image: url("../../../assets/images/trainerCard/trainer_card_hoenn.svg");
 }
 
 .region_Hoenn .trainer_name {
