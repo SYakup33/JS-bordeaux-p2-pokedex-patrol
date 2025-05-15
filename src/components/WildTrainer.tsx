@@ -1,5 +1,5 @@
 import "./WildTrainer.css";
-import chatBoxImg from "src/assets/images/chat_box.svg";
+import chatBoxImg from "../assets/images/chat_box.svg";
 
 interface Props {
 	trainer: {
