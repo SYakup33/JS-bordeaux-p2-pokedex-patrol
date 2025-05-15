@@ -1,17 +1,16 @@
-import "./WildTrainer.css";
-import chatBoxImg from "../assets/images/chat_box.svg";
+interface TrainerInterface {
+	id: number;
+	declaredName: string;
+	cardName: string;
+	declaredRegion: string;
+	cardRegion: string;
+	portraitImage: string;
+	cardPortrait: string;
+	isTrainerCorrupted: boolean;
+}
 
 interface Props {
-	trainer: {
-		id: number;
-		declaredName: string;
-		cardName: string;
-		declaredRegion: string;
-		cardRegion: string;
-		portraitImage: string;
-		cardPortrait: string;
-		isTrainerCorrupted: boolean;
-	};
+	trainer: TrainerInterface;
 }
 
 function WildTrainer({ trainer }: Props) {
@@ -19,7 +18,11 @@ function WildTrainer({ trainer }: Props) {
 		<div className="wildTrainer">
 			<img className="Trainer" src={trainer.portraitImage} alt="Trainer" />
 			<div className="chatBox">
-				<img className="trainerImg" src={chatBoxImg} alt="chatBox" />
+				<img
+					className="trainerImg"
+					src="src/assets/images/chat_box.svg"
+					alt="chatBox"
+				/>
 				<p className="textOnImage">
 					{trainer.declaredName}: <br />
 					Salut je viens de {trainer.declaredRegion} !
