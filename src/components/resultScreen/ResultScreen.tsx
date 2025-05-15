@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "./ResultScreen.css";
-import pikaRedGif from "src/assets/images/hud/pikawalk.gif";
+import pikaRedGif from "../../assets/images/hud/pikawalk.gif";
 import pokemonWinSound from "src/assets/music/pokemonwin.mp3";
 
 interface ResultScreenProps {
