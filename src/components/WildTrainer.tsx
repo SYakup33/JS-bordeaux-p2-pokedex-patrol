@@ -3,8 +3,6 @@ import chatBoxImg from "../assets/images/chat_box.svg";
 import trainer20imgfull from "../../assets/images/portraitImage/trainer20imgfull.svg";
 import trainer2imgfull from "../../assets/images/portraitImage/trainer2imgfull.svg";
 
-type TrainerImageKeys = "trainer20imgfull.svg" | "trainer2imgfull.svg";
-
 interface Props {
 	trainer: {
 		id: number;
@@ -12,7 +10,7 @@ interface Props {
 		cardName: string;
 		declaredRegion: string;
 		cardRegion: string;
-		portraitImage: TrainerImageKeys;
+		portraitImage: string;
 		cardPortrait: string;
 		isTrainerCorrupted: boolean;
 	};
@@ -25,7 +23,7 @@ function WildTrainer({ trainer }: Props) {
 	};
 	return (
 		<div className="wildTrainer">
-			<img src={trainerImages[trainer.portraitImage]} alt="Trainer" />
+			<img className="Trainer" src={trainer.portraitImage} alt="Trainer" />
 			<div className="chatBox">
 				<img className="trainerImg" src={chatBoxImg} alt="chatBox" />
 				<p className="textOnImage">

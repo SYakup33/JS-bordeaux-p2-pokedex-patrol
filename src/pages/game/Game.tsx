@@ -19,7 +19,7 @@ import WildTrainer from "../../components/WildTrainer";
 import Pokedex from "../../components/pokedex/Pokedex";
 import TrainerCardButton from "../../components/trainerCard/trainerCardButton/TrainerCardButton";
 import { usePokemonContext } from "../../context/PokemonContext";
-import trainersData from "../../db/trainers.json";
+import { trainersData } from "../../db/trainers.ts";
 
 interface NameEntry {
 	name: string;
