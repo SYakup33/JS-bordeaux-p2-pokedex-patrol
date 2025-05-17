@@ -51,7 +51,7 @@
 	margin-top: 1.7em;
 	margin-left: 1.9em;
 	font-size: var(--font-h2-size);
-	z-index: 20;
+	z-index: 2;
 }
 
 .game_desk {
