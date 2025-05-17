@@ -239,7 +239,6 @@ function Game() {
 				</div>
 
 				<div className="game_desk">
-					<div className="Jenny">ss</div>
 					<div className="official_witness">
 						<div className="game-container">
 							{!isNotebookOpen && (
