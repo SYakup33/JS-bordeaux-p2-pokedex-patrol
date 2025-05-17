@@ -14,7 +14,6 @@ import TrainerCardModal from "../../components/trainerCard/trainerCardModal/Trai
 import TrainerCheck from "../../components/trainerCheck/TrainerCheck";
 import type { PokemonData } from "../../context/PokemonContext";
 import "./Game.css";
-import Jenny from "../../components/Jenny/Jenny";
 import WildTrainer from "../../components/WildTrainer";
 import Pokedex from "../../components/pokedex/Pokedex";
 import TrainerCardButton from "../../components/trainerCard/trainerCardButton/TrainerCardButton";
@@ -240,9 +239,7 @@ function Game() {
 				</div>
 
 				<div className="game_desk">
-					<div className="Jenny">
-						<Jenny />
-					</div>
+					<div className="Jenny">ss</div>
 					<div className="official_witness">
 						<div className="game-container">
 							{!isNotebookOpen && (
